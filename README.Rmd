@@ -18,7 +18,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of rpkgtest is to ...
+The goal of rpkgtest is to enable me to practice creating an R package. This package includes a Hello, World function as well as a function to square numbers.
 
 ## Installation
 
@@ -31,25 +31,10 @@ devtools::install_github("astitz13/rpkgtest")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+This is a basic example which shows how this package works:
 
 ```{r example}
 library(rpkgtest)
-## basic example code
+hello()
+square(5)
 ```
-
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
-
-```{r cars}
-summary(cars)
-```
-
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this.
-
-You can also embed plots, for example:
-
-```{r pressure, echo = FALSE}
-plot(pressure)
-```
-
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub and CRAN.
