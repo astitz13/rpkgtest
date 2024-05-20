@@ -34,3 +34,12 @@ hello()
 square(5)
 #> [1] 25
 ```
+
+You can also plot the square of a range:
+
+``` r
+library(rpkgtest)
+plot(square(1:10))
+```
+
+<img src="man/figures/README-plot-1.png" width="100%" />

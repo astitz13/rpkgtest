@@ -38,3 +38,10 @@ library(rpkgtest)
 hello()
 square(5)
 ```
+
+You can also plot the square of a range:
+
+```{r plot}
+library(rpkgtest)
+plot(square(1:10))
+```
